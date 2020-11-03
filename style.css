@@ -10,6 +10,19 @@ body {
     position: relative;
 }
 
+.paragrafo-esquerda {
+    position: absolute;
+    left: -100px;
+    width: 400px;
+    text-align: center; 
+    border: 10px solid #00008B;
+    padding: 40px;
+}
+
+.paragrafo-esquerda p {
+    font-size: 20px;
+} 
+
 .field {
     width:600px;
     max-height: 100vh;
@@ -52,7 +65,7 @@ body {
 .mira {
     width: 300px;
     height: 150px;
-    background: conic-gradient(from 191.37deg at 50% 50%, rgba(252, 6, 6, 0.8) -87.92deg, rgba(255, 0, 0, 0.8) 59.82deg, rgba(0, 255, 71, 0.495491) 170.95deg, rgba(252, 6, 6, 0.8) 272.08deg, rgba(255, 0, 0, 0.8) 419.82deg), #C4C4C4;
+    background: conic-gradient(from 191.37deg at 50% 50%, red -87.92deg, red 59.82deg, green 170.95deg, red 272.08deg, red 419.82deg), green;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
 

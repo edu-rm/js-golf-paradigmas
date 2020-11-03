@@ -90,7 +90,7 @@ function jogar() {
     jogou = !jogou;
     if(jogou){
         jogarButton.classList.add('block-button')
-        const zeroToOne = deg/90 + 0.25;
+        const zeroToOne = deg/90 + 0.45;
         console.log(zeroToOne);
         const valorPositivo = zeroToOne < 0 ? zeroToOne * -1 : zeroToOne;
         if(probability(valorPositivo)){
