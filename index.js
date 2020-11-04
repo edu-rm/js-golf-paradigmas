@@ -90,9 +90,9 @@ function jogar() {
     jogou = !jogou;
     if(jogou){
         jogarButton.classList.add('block-button')
-        const zeroToOne = deg/90 + 0.45;
+        const zeroToOne = deg/90;
         console.log(zeroToOne);
-        const valorPositivo = zeroToOne < 0 ? zeroToOne * -1 : zeroToOne;
+        const valorPositivo = zeroToOne < 0 ? (zeroToOne * -1) +0.45 : zeroToOne+0.45;
         if(probability(valorPositivo)){
             ganhou();
         }else {
