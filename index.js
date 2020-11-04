@@ -126,7 +126,7 @@ function jogar() {
         const zeroToOne = deg/90;
         // Transforma o valor em positivo caso seja negativo.
         // o valor somado é para diminuir as chances de vitória
-        const valorPositivo = zeroToOne < 0 ? (zeroToOne * -1) +0.35 : zeroToOne+0.45;
+        const valorPositivo = zeroToOne < 0 ? (zeroToOne * -1) +0.35 : zeroToOne+0.35;
         // Chama a função de probabilidade
         // Se o valor conseguido for menor que o gerado é considerado que ele ganhou,
         // caso contrário ele perde
@@ -163,8 +163,3 @@ function jogar() {
         
     }
 }
-
-
-
-
-
