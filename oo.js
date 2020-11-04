@@ -95,9 +95,7 @@ var Seta = function () {
     this.timer;
 
     this.interval = function(){
-        // if(jogou) {
-        //     return
-        // }
+
         if(this.deg <= -90){
             this.side= 'right';
         }
@@ -177,5 +175,3 @@ function main () {
         elementos.resetQuadros();
     }
 }
-
-// main()
